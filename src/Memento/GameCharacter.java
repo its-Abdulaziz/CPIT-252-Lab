@@ -1,5 +1,7 @@
 package Memento;
 
+import CompositePatternDemo2.Employee;
+
 public class GameCharacter {
     private int powerLevel = 0;
 
@@ -16,4 +18,5 @@ public class GameCharacter {
         powerLevel = memento.getPowerLevel();
         System.out.println("Restore Power Level: " + powerLevel);
     }
+
 }

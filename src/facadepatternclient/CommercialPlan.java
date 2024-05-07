@@ -11,5 +11,4 @@ public class CommercialPlan implements PlanType{
     public void gerRate() {
         System.out.println("10000 SAR");
     }
-
 }
